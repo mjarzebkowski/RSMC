@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\DLLs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="xAPI">
+      <HintPath>R:\xRider\xAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
